@@ -1,0 +1,116 @@
+{
+    "@type": "DataFeed",
+    "dateModified": "2025-09-29T09:08:53.447Z",
+    "dataFeedElement": [
+        {
+            "@type": "Movie",
+            "@id": "https://flytedge-streaming-service/HowToTrainYourDragon2025-movie",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "How To Train Your Dragon (2025)"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Comment dresser votre dragon (2025)"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "In a live-action twist, a young Viking named Hiccup forges an extraordinary bond with Toothless, a rare dragon he rescues, embarking on a journey of friendship and adventure."
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Dans un rebondissement en prise de vues réelles, un jeune Viking nommé Harold noue un lien extraordinaire avec Krokmou, un dragon rare qu’il sauve, s’engageant ainsi dans un voyage d’amitié et d’aventure."
+                }
+            ],
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "duration": "PT2H09M0S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/media-server/v1/public/catalog/video/HowToTrainYourDragon2025-movie"
+                },
+                "actionAccessibilityRequirement": {
+                    "@type": "ActionAccessSpecification",
+                    "category": "free"
+                }
+            },
+            "actor": [
+                {
+                    "@type": "Person",
+                    "name": "Mason Thames"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Nico Parker"
+                }
+            ],
+            "director": [
+                {
+                    "@type": "Person",
+                    "name": "Dean DeBlois"
+                }
+            ],
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/HowToTrainYourDragon2025-movie/assets/HowToTrainYourDragon2025-movie-background.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 3840
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 2160
+                    },               
+                 	"inLanguage": "en",
+					"keywords":[
+						"background",
+						"sceneStill",
+						"noTitle"
+					]
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/HowToTrainYourDragon2025-movie/assets/HowToTrainYourDragon2025-movie-poster.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 720
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 1280
+                    },                    
+                    "inLanguage": "en",
+					"keywords":[
+						"poster",
+						"hasTitle"
+					]
+                }
+            ],
+            "contentRating": {
+                "@type": "Rating",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Motion Picture Association"
+                },
+                "ratingValue": "PG"
+            },
+            "isFamilyFriendly": false,			          
+			"identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "IMDB_ID",
+                    "value": "tt26743210"
+                }
+                
+            ]
+        }
+    ]
+}

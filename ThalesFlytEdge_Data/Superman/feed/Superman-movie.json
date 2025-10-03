@@ -1,0 +1,120 @@
+{
+    "@type": "DataFeed",
+    "dateModified": "2025-09-11T09:08:53.447Z",
+    "dataFeedElement": [
+        {
+            "@type": "Movie",
+            "@id": "https://flytedge-streaming-service/Superman-movie",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "Superman"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Superman"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "Superman's journey to reconcile his heritage as the Kryptonian Kal-El with his human upbringing as Clark Kent of Smallville, Kansas, and his selfless determination to use his power for good."
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Le voyage de Superman pour concilier son héritage en tant que Kryptonien Kal-El avec son éducation humaine en tant que Clark Kent de Smallville, Kansas, et sa détermination désintéressée à utiliser son pouvoir pour le bien."
+                }
+            ],
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "duration": "PT2H09M0S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/media-server/v1/public/catalog/video/Superman-movie"
+                },
+                "actionAccessibilityRequirement": {
+                    "@type": "ActionAccessSpecification",
+                    "category": "free"
+                }
+            },
+            "actor": [
+                {
+                    "@type": "Person",
+                    "name": "David Corenswet"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Nicholas Hoult"
+                },
+				{
+                    "@type": "Person",
+                    "name": "Rachel Brosnahan"
+                }
+            ],
+            "director": [
+                {
+                    "@type": "Person",
+                    "name": "James Gunn"
+                }
+            ],
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/Superman-movie/assets/Superman-movie-background.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 3840
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 2160
+                    },               
+                 	"inLanguage": "en",
+					"keywords":[
+						"background",
+						"sceneStill",
+						"noTitle"
+					]
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/Superman-movie/assets/Superman-movie-poster.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 720
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 1280
+                    },                    
+                    "inLanguage": "en",
+					"keywords":[
+						"poster",
+						"hasTitle"
+					]
+                }
+            ],
+            "contentRating": {
+                "@type": "Rating",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Motion Picture Association"
+                },
+                "ratingValue": "PG-13"
+            },
+            "isFamilyFriendly": false,			          
+			"identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "IMDB_ID",
+                    "value": "tt5950044"
+                }
+                
+            ]
+        }
+    ]
+}

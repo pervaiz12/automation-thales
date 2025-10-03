@@ -1,0 +1,120 @@
+{
+    "@type": "DataFeed",
+    "dateModified": "2025-09-11T09:08:53.447Z",
+    "dataFeedElement": [
+        {
+            "@type": "Movie",
+            "@id": "https://flytedge-streaming-service/FreakierFriday-movie",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "Freakier Friday"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Vendredi Freak"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "Jamie Lee Curtis and Lindsay Lohan reprise their roles in this hilarious sequel. Tess’s daughter Anna now has a daughter of her own and soon, a stepdaughter. As they navigate the joys and challenges when two families merge, lightning just may strike twice."
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Jamie Lee Curtis et Lindsay Lohan reprennent leurs rôles dans cette suite hilarante. La fille de Tess, Anna, a maintenant une fille à elle et bientôt, une belle-fille. Alors qu'elles naviguent à travers les joies et les défis lorsque deux familles se mêlent, il se pourrait que la foudre frappe deux fois."
+                }
+            ],
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "duration": "PT2H0M0S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/media-server/v1/public/catalog/video/FreakierFriday-movie"
+                },
+                "actionAccessibilityRequirement": {
+                    "@type": "ActionAccessSpecification",
+                    "category": "free"
+                }
+            },
+            "actor": [
+                {
+                    "@type": "Person",
+                    "name": "Jamie Lee Curtis"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Lindsay Lohan"
+                },
+				{
+                    "@type": "Person",
+                    "name": "Manny Jacint"
+                }
+            ],
+            "director": [
+                {
+                    "@type": "Person",
+                    "name": "Nisha Ganatra"
+                }
+            ],
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/FreakierFriday-movie/assets/FreakierFriday-movie-background.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 3840
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 2160
+                    },               
+                 	"inLanguage": "en",
+					"keywords":[
+						"background",
+						"sceneStill",
+						"noTitle"
+					]
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/FreakierFriday-movie/assets/FreakierFriday-movie-poster.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 720
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 1280
+                    },                    
+                    "inLanguage": "en",
+					"keywords":[
+						"poster",
+						"hasTitle"
+					]
+                }
+            ],
+            "contentRating": {
+                "@type": "Rating",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Motion Picture Association"
+                },
+                "ratingValue": "PG"
+            },
+            "isFamilyFriendly": false,			          
+			"identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "IMDB_ID",
+                    "value": "tt31956415"
+                }
+                
+            ]
+        }
+    ]
+}

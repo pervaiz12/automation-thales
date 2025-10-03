@@ -1,0 +1,119 @@
+{
+    "@type": "DataFeed",
+    "dateModified": "2025-08-30T09:08:53.447Z",
+    "dataFeedElement": [
+        {
+            "@type": "Movie",
+            "@id": "https://flytedge-streaming-service/ALineofFire-movie",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "A Line of Fire"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Une ligne de feu"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "After a decade as a secret agent, Jack Conroy, known as 'Cash', leaves the FBI to raise his daughters. When his partner's niece seeks help, he is pulled back into a perilous world of crime and chaos."
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Après une décennie en tant qu'agent secret, Jack Conroy, connu sous le nom de 'Cash', quitte le FBI pour élever ses filles. Lorsque la nièce de son partenaire cherche de l'aide, il est entraîné à nouveau dans un monde périlleux de crime et de chaos."
+                }
+            ],
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "duration": "PT1H30M0S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/media-server/v1/public/catalog/video/ALineofFire-movie"
+                },
+                "actionAccessibilityRequirement": {
+                    "@type": "ActionAccessSpecification",
+                    "category": "free"
+                }
+            },
+            "actor": [
+                {
+                    "@type": "Person",
+                    "name": "David A.R. White"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Cuba Gooding"
+                },
+				{
+                    "@type": "Person",
+                    "name": "Jason Patric"
+                }
+            ],
+            "director": [
+                {
+                    "@type": "Person",
+                    "name": "Matt Shapira"
+                }
+            ],
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/ALineofFire-movie/assets/ALineofFire-movie-backdrop_4k.png",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 3840
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 2160
+                    },                   
+                    "inLanguage": "en",
+					"keywords":[
+						"background",
+						"sceneStill",
+						"noTitle"
+					]
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/ALineofFire-movie/assets/ALineofFire-movie-poster_hd.png",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 720
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 1280
+                    },                    
+                    "inLanguage": "en",
+					"keywords":[
+						"poster",
+						"hasTitle"
+					]
+                }
+            ],
+            "contentRating": {
+                "@type": "Rating",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Motion Picture Association"
+                },
+                "ratingValue": "R"
+            },
+            "isFamilyFriendly": false,
+            "identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "IMDB_ID",
+                    "value": "tt33712667"
+                }
+            ]
+        }
+    ]
+}

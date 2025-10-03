@@ -1,0 +1,120 @@
+{
+    "@type": "DataFeed",
+    "dateModified": "2025-09-11T09:08:53.447Z",
+    "dataFeedElement": [
+        {
+            "@type": "Movie",
+            "@id": "https://flytedge-streaming-service/JurassicWorldRebirth-movie",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "Jurassic World: Rebirth"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Jurassic World : Renaissance"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "Five years after the chaos of Jurassic World Dominion, a daring expedition ventures into remote equatorial areas to retrieve DNA from three colossal prehistoric creatures for revolutionary medical advancements."
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Cinq ans après le chaos de Jurassic World Dominion, une expédition audacieuse s'aventure dans des régions équatoriales isolées pour récupérer de l'ADN de trois énormes créatures préhistoriques en vue de révolutions médicales."
+                }
+            ],
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "duration": "PT2H13M0S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/media-server/v1/public/catalog/video/JurassicWorldRebirth-movie"
+                },
+                "actionAccessibilityRequirement": {
+                    "@type": "ActionAccessSpecification",
+                    "category": "free"
+                }
+            },
+            "actor": [
+                {
+                    "@type": "Person",
+                    "name": "Scarlett Johansson"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Mahershala Ali"
+                },
+				{
+                    "@type": "Person",
+                    "name": "Jonathan Baily"
+                }
+            ],
+            "director": [
+                {
+                    "@type": "Person",
+                    "name": "Gareth Edwards"
+                }
+            ],
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/JurassicWorldRebirth-movie/assets/JurassicWorldRebirth-movie-background.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 3840
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 2160
+                    },               
+                 	"inLanguage": "en",
+					"keywords":[
+						"background",
+						"sceneStill",
+						"noTitle"
+					]
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/JurassicWorldRebirth-movie/assets/JurassicWorldRebirth-movie-poster.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 720
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 1280
+                    },                    
+                    "inLanguage": "en",
+					"keywords":[
+						"poster",
+						"hasTitle"
+					]
+                }
+            ],
+            "contentRating": {
+                "@type": "Rating",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Motion Picture Association"
+                },
+                "ratingValue": "PG-13"
+            },
+            "isFamilyFriendly": false,			          
+			"identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "IMDB_ID",
+                    "value": "tt31036941"
+                }
+                
+            ]
+        }
+    ]
+}

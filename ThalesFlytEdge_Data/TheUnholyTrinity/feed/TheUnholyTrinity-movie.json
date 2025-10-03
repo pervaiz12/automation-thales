@@ -1,0 +1,120 @@
+{
+    "@type": "DataFeed",
+    "dateModified": "2025-09-29T09:08:53.447Z",
+    "dataFeedElement": [
+        {
+            "@type": "Movie",
+            "@id": "https://flytedge-streaming-service/TheUnholyTrinity-movie",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "The Unholy Trinity"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "La Trinité Profan"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "A young man seeks to avenge his father's wrongful execution and is caught between a powerful sheriff and a mysterious sharpshooting stranger."
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Un jeune homme cherche à venger l’exécution injuste de son père et se retrouve pris entre un shérif puissant et un mystérieux étranger tireur d’élite."
+                }
+            ],
+            "genre": [
+                "Drama",
+                "Fantasy",
+				"Sci-Fi"
+            ],
+            "duration": "PT1H50M0S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/media-server/v1/public/catalog/video/TheUnholyTrinity-movie"
+                },
+                "actionAccessibilityRequirement": {
+                    "@type": "ActionAccessSpecification",
+                    "category": "free"
+                }
+            },
+            "actor": [
+                {
+                    "@type": "Person",
+                    "name": "Pierce Brosnan"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Samuel L. Jackson"
+                },
+				{
+                    "@type": "Person",
+                    "name": "Brandon Lessard"
+                }
+            ],
+            "director": [
+                {
+                    "@type": "Person",
+                    "name": "Richard Gray"
+                }
+            ],
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/TheUnholyTrinity-movie/assets/TheUnholyTrinity-movie-backdrop_4k.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 3840
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 2160
+                    },                  
+                    "inLanguage": "en",
+					"keywords":[
+						"background",
+						"sceneStill",
+						"noTitle"
+					]
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/TheUnholyTrinity-movie/assets/TheUnholyTrinity-movie-poster_hd.jpg",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 720
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 1280
+                    },                 
+                    "inLanguage": "en",
+					"keywords":[
+						"poster",
+						"hasTitle"
+					]
+                }
+            ],
+            "contentRating": {
+                "@type": "Rating",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Motion Picture Association"
+                },
+                "ratingValue": "R"
+            },
+            "isFamilyFriendly": false,
+            "identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "IMDB_ID",
+                    "value": "tt6300910"
+                }
+            ]
+        }
+    ]
+}

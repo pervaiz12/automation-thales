@@ -1,0 +1,119 @@
+{
+    "@type": "DataFeed",
+    "dateModified": "2025-08-30T09:08:53.447Z",
+    "dataFeedElement": [
+        {
+            "@type": "Movie",
+            "@id": "https://flytedge-streaming-service/ANiceIndianBoy-movie",
+            "name": [
+                {
+                    "@language": "en",
+                    "@value": "A Nice Indian Boy"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "Un gentil garçon indien"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "Naveen's kind spirit shines as he introduces his white fiancé, Jay, to his traditional Indian family. Together, they face cultural challenges while planning their dream wedding."
+                },
+                {
+                    "@language": "fr",
+                    "@value": "L'esprit bienveillant de Naveen brille alors qu'il présente son fiancé blanc, Jay, à sa famille indienne traditionnelle. Ensemble, ils font face à des défis culturels tout en planifiant leur mariage de rêve."
+                }
+            ],
+            "genre": [
+                "Comedy",
+                "Drama"
+            ],
+            "duration": "PT1H36M0S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "/media-server/v1/public/catalog/video/ANiceIndianBoy-movie"
+                },
+                "actionAccessibilityRequirement": {
+                    "@type": "ActionAccessSpecification",
+                    "category": "free"
+                }
+            },
+            "actor": [
+                {
+                    "@type": "Person",
+                    "name": "Karan Soni"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Jonathan Groff"
+                },
+				{
+                    "@type": "Person",
+                    "name": "Sunita Mani"
+                }
+            ],
+            "director": [
+                {
+                    "@type": "Person",
+                    "name": "Roshan Sethi"
+                }
+            ],
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/ANiceIndianBoy-movie/assets/ANiceIndianBoy-movie-backdrop_4k.png",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 3840
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 2160
+                    },                    
+                    "inLanguage": "en",
+					"keywords":[
+						"background",
+						"sceneStill",
+						"noTitle"
+					]
+                },
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "/media-server/v1/public/files/ANiceIndianBoy-movie/assets/ANiceIndianBoy-movie-poster_hd.png",
+                    "width": {
+                        "@type": "QuantitativeValue",
+                        "value": 720
+                    },
+                    "height": {
+                        "@type": "QuantitativeValue",
+                        "value": 1280
+                    },                    
+                    "inLanguage": "en",
+					"keywords":[
+						"poster",
+						"hasTitle"
+					]
+                }
+            ],
+            "contentRating": {
+                "@type": "Rating",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Motion Picture Association"
+                },
+                "ratingValue": "N/R"
+            },
+            "isFamilyFriendly": false,
+            "identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "IMDB_ID",
+                    "value": "tt16431330"
+                }
+            ]
+        }
+    ]
+}
